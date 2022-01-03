@@ -148,10 +148,44 @@ footer a:hover{
 	color: white;
 }
 
+.login-card .form-control{
+    background-color: rgba(42, 47, 51, .7);
+    border-color: transparent;
+    color: #eff0f7;
+}
+
+.login-card .form-control:focus{
+    background-color: rgba(42, 47, 51, .5);
+    border-color: #3384aa;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-card .form-control::placeholder{
+    color: #eff0f7;
+}
+
 .login-card-header{
 	background-color: rgba(42, 47, 51, .8);
 	letter-spacing: 3px;
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: #EFF0F7;
+}
+
+.loginBtn{
+    color: white;
+}
+
+.loginBtn--facebook{
+    background-image: linear-gradient(#4c69ba, #3b55a0);
+    text-shadow: 0 -1px 0 #354c8c;
+}
+
+.loginBtn--facebook:hover, .loginBtn--facebook:focus{
+    background-image: linear-gradient(#5b7bd5, #4864b1);
+}
+
+.loginBtn--google{
+    background-image: linear-gradient(#4c69ba, #3b55a0);
 }
