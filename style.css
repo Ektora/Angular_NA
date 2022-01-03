@@ -129,3 +129,29 @@ footer a:hover{
 .btn-facebook:active, .btn-facebook:hover{
     background-color: #263961;
 }
+
+/* Bejelentkezés oldal */
+.bejelentkezes{
+	background-image: url("img/login-bg.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.login-card{
+	background-color: rgba(42, 47, 51, .8);
+	color: white;
+}
+
+.login-card a{
+	color: white;
+}
+
+.login-card-header{
+	background-color: rgba(42, 47, 51, .8);
+	letter-spacing: 3px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #EFF0F7;
+}
