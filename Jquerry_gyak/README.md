@@ -1,2 +1,2 @@
-# netacademia-bt4
-A Netacademia Bootstrap 4 tanfolyama
+# netacademia-Jquerry4
+A Netacademia Jquerry 4 tanfolyama
